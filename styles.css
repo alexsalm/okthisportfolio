@@ -17,7 +17,7 @@ body {
   color: #e6e6e6;
 }
 
-ul {
+.navbar-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -71,8 +71,13 @@ form {
   width: 400px;
   /* Form outline */
   padding: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid;
   border-radius: 1em;
+}
+
+.form-ul {
+  list-style-type: none;
+  text-align: left;
 }
 
 label {
