@@ -171,6 +171,18 @@ button {
   justify-content: center;
 }
 
+.michael-paredes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* It the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size */
 img {
   max-width: 100%;
