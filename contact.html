@@ -20,7 +20,8 @@
     </nav>
     <br />
     <h1 id="contact">Contact</h1>
-    <form action="my-handling-form-page" method="post">
+    <form id="myForm">
+      <!-- action="my-handling-form-page" method="post"> -->
       <ul>
         <li>
           <label for="name">Name:</label>
@@ -39,5 +40,11 @@
         </li>
       </ul>
     </form>
+
+    <script>
+      document.getElementById("myForm").addEventListener("submit", function () {
+        location.reload();
+      });
+    </script>
   </body>
 </html>
