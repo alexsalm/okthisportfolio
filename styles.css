@@ -96,6 +96,10 @@ label {
   text-align: right;
 }
 
+.form-control {
+  border-radius: 3px;
+}
+
 input,
 textarea {
   /* To make sure that all text fields have the same font settings
