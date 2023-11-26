@@ -23,11 +23,11 @@
     <form id="myForm">
       <ul class="form-ul">
         <li>
-          <label for="name">Name:</label>
+          <label for="name">Name</label>
           <input type="text" class="form-control" id="name" name="user_name" />
         </li>
         <li>
-          <label for="mail">Email:</label>
+          <label for="mail">Email</label>
           <input
             type="email"
             class="form-control"
@@ -36,7 +36,15 @@
           />
         </li>
         <li>
-          <label for="msg">Message:</label>
+          <label for="country">Country</label>
+          <select id="select-country" name="country">
+            <option value="USA">USA</option>
+            <option value="Mexico">México</option>
+            <option value="Netherlands">Netherlands</option>
+          </select>
+        </li>
+        <li>
+          <label for="msg">Message</label>
           <textarea id="msg" class="form-control" name="user_message">
           </textarea>
         </li>
