@@ -85,10 +85,8 @@ li a:hover {
 form {
   /* Center the form on the page */
   margin: 0 auto;
-  width: 400px;
+  width: 500px;
   /* Form outline */
-  border: 1px solid;
-  border-radius: 1em;
 }
 
 .form-ul {
