@@ -96,6 +96,7 @@ form {
   /* Center the form on the page */
   margin: 0 auto;
   width: 500px;
+  border: 5px solid orange;
   /* Form outline */
 }
 
